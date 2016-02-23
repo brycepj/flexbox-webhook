@@ -7,6 +7,10 @@ app.post('/github/flexbox', function (req, res) {
   });
 });
 
+app.get('/github/flexbox', function (req, res) {
+  res.send("hello I work");
+});
+
 app.listen(8181, function () {
   console.log('Example app listening on port 8080!');
 });
